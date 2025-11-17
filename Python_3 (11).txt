@@ -1,0 +1,11 @@
+is_text = int(input('''please enter numbers 
+i tall you what set or not set: '''))
+def start(on):
+    if is_text % 2 == 0:
+        print('this text is set')
+        return True
+    else:
+        print('this text is\'t set')
+        return False
+result = start(is_text)
+print(result)
