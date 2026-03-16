@@ -2,7 +2,7 @@ import telebot
 import custom_add
 
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
-KEY = '8516661521:AAEYAjViNrMFVoLur3gwWR0QyjxYJcnVE20'
+KEY = 'your key'
 bot = telebot.TeleBot(KEY)
 id_send = []
 i1 = False
